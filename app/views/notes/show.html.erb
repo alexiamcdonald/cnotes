@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @note.timestamp %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @note.tag %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @note.notes %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @note.picture %>
+</p>
+
+<p>
+  <strong>Patientid:</strong>
+  <%= @note.patientid %>
+</p>
+
+<%= link_to 'Edit', edit_note_path(@note) %> |
+<%= link_to 'Back', notes_path %>
