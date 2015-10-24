@@ -1,0 +1,1 @@
+json.extract! @history, :id, :psh_comments, :psh_keyEvents, :fmh_comments, :fmh_picture, :fmh_keyevents, :pmh_comments, :pmh_majorevents, :pmh_medication, :pmh_allergies, :pmh_existingconditions, :created_at, :updated_at

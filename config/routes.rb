@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
+  resources :histories
   resources :tags
   resources :notes
   resources :doctors
-  resources :patients
-  resources :patients
   resources :patients
   root :to => redirect('/patients')
   # The priority is based upon order of creation: first created -> highest priority.
