@@ -18,7 +18,7 @@ class PatientsControllerTest < ActionController::TestCase
 
   test "should create patient" do
     assert_difference('Patient.count') do
-      post :create, patient: { address: @patient.address, dob: @patient.dob, email: @patient.email, emergencyname: @patient.emergencyname, emergencyphone: @patient.emergencyphone, martialstat: @patient.martialstat, name: @patient.name, phone: @patient.phone, postcode: @patient.postcode, prefname: @patient.prefname, suburb: @patient.suburb }
+      post :create, patient: { address: @patient.address, dob: @patient.dob, email: @patient.email, emergencyname: @patient.emergencyname, emergencyphone: @patient.emergencyphone, gender: @patient.gender, maritalstat: @patient.maritalstat, name: @patient.name, phone: @patient.phone, postcode: @patient.postcode, prefname: @patient.prefname, suburb: @patient.suburb }
     end
 
     assert_redirected_to patient_path(assigns(:patient))
@@ -35,7 +35,7 @@ class PatientsControllerTest < ActionController::TestCase
   end
 
   test "should update patient" do
-    patch :update, id: @patient, patient: { address: @patient.address, dob: @patient.dob, email: @patient.email, emergencyname: @patient.emergencyname, emergencyphone: @patient.emergencyphone, martialstat: @patient.martialstat, name: @patient.name, phone: @patient.phone, postcode: @patient.postcode, prefname: @patient.prefname, suburb: @patient.suburb }
+    patch :update, id: @patient, patient: { address: @patient.address, dob: @patient.dob, email: @patient.email, emergencyname: @patient.emergencyname, emergencyphone: @patient.emergencyphone, gender: @patient.gender, maritalstat: @patient.maritalstat, name: @patient.name, phone: @patient.phone, postcode: @patient.postcode, prefname: @patient.prefname, suburb: @patient.suburb }
     assert_redirected_to patient_path(assigns(:patient))
   end
 

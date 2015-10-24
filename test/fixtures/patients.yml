@@ -3,11 +3,12 @@
 one:
   name: MyString
   prefname: MyString
-  dob: 
-  martialstat: MyString
+  dob: MyString
+  gender: MyString
+  maritalstat: MyString
   address: MyString
   suburb: MyString
-  postcode: 
+  postcode: MyString
   email: MyString
   phone: MyString
   emergencyname: MyString
@@ -16,11 +17,12 @@ one:
 two:
   name: MyString
   prefname: MyString
-  dob: 
-  martialstat: MyString
+  dob: MyString
+  gender: MyString
+  maritalstat: MyString
   address: MyString
   suburb: MyString
-  postcode: 
+  postcode: MyString
   email: MyString
   phone: MyString
   emergencyname: MyString
