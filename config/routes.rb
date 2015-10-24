@@ -1,10 +1,14 @@
 Rails.application.routes.draw do
+  get 'splash/splash'
+
   resources :histories
   resources :tags
   resources :notes
   resources :doctors
   resources :patients
-  root :to => redirect('/patients')
+
+  root 'splash#splash'
+  #root :to => redirect('/patients')
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
