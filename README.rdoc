@@ -1,5 +1,7 @@
 = CNOTES
 
+A Simple Online Clinical Notes Program
+
 Community and not-for-profit sector psychology and counselling practices in  Australia have been slow to take up the benefits of electronic patient record  keeping. This is largely because most e-Health products are tailored to General  Practitioner services or large hospitals and are prohibitively expensive for small  practices. Chiasma Health has recently been approached by a community  psychology practice with a brief to create a medical record system for small scale  deployment. We are keen on creating a robust system that meets data security  and retention laws but is also easily implemented and extensible.
 
 == System Requirements
