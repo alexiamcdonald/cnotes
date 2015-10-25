@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'splash/splash'
+
   resources :notes
   resources :patients
   resources :models
