@@ -1,19 +1,23 @@
-== CNOTES
+CNOTES
+======
 
 Community and not-for-profit sector psychology and counselling practices in  Australia have been slow to take up the benefits of electronic patient record  keeping. This is largely because most e-Health products are tailored to General  Practitioner services or large hospitals and are prohibitively expensive for small  practices. Chiasma Health has recently been approached by a community  psychology practice with a brief to create a medical record system for small scale  deployment. We are keen on creating a robust system that meets data security  and retention laws but is also easily implemented and extensible.
 
-Things you may want to cover:
+System Requirements
+----------------------
 
-* Ruby version: ruby 2.1.5
+* Ruby version: Ruby 2.1.5
 
-* System dependencies: ruby, rails
+* System dependencies: Ruby, Rails
 
-git clone git@github.com:alexiamcdonald/cnotes.git
+Installation
+---------------
 
-cd cnotes
+`git clone git@github.com:alexiamcdonald/cnotes.git`
 
-bundle install
+`cd cnotes`
 
-rails s
+`bundle install`
 
-<tt>rake doc:app</tt>.
+`rails s`
+
