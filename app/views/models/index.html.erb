@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Models</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Patients</th>
+      <th>Title</th>
+      <th>Surname</th>
+      <th>Name</th>
+      <th>Prefname</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Martialstat</th>
+      <th>Address</th>
+      <th>Suburb</th>
+      <th>Postcode</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Mobile</th>
+      <th>Persontype</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @models.each do |model| %>
+      <tr>
+        <td><%= model.Patients %></td>
+        <td><%= model.title %></td>
+        <td><%= model.surname %></td>
+        <td><%= model.name %></td>
+        <td><%= model.prefname %></td>
+        <td><%= model.age %></td>
+        <td><%= model.gender %></td>
+        <td><%= model.martialstat %></td>
+        <td><%= model.address %></td>
+        <td><%= model.suburb %></td>
+        <td><%= model.postcode %></td>
+        <td><%= model.email %></td>
+        <td><%= model.phone %></td>
+        <td><%= model.mobile %></td>
+        <td><%= model.persontype %></td>
+        <td><%= link_to 'Show', model %></td>
+        <td><%= link_to 'Edit', edit_model_path(model) %></td>
+        <td><%= link_to 'Destroy', model, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Model', new_model_path %>

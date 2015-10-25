@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Patients: MyString
+  title: 1
+  surname: MyString
+  name: MyString
+  prefname: MyString
+  age: 1
+  gender: MyString
+  martialstat: MyString
+  address: MyString
+  suburb: MyString
+  postcode: MyString
+  email: MyString
+  phone: MyString
+  mobile: MyString
+  persontype: false
+
+two:
+  Patients: MyString
+  title: 1
+  surname: MyString
+  name: MyString
+  prefname: MyString
+  age: 1
+  gender: MyString
+  martialstat: MyString
+  address: MyString
+  suburb: MyString
+  postcode: MyString
+  email: MyString
+  phone: MyString
+  mobile: MyString
+  persontype: false
