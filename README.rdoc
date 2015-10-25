@@ -1,28 +1,19 @@
-== README
+== CNOTES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Community and not-for-profit sector psychology and counselling practices in  Australia have been slow to take up the benefits of electronic patient record  keeping. This is largely because most e-Health products are tailored to General  Practitioner services or large hospitals and are prohibitively expensive for small  practices. Chiasma Health has recently been approached by a community  psychology practice with a brief to create a medical record system for small scale  deployment. We are keen on creating a robust system that meets data security  and retention laws but is also easily implemented and extensible.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: ruby 2.1.5
 
-* System dependencies
+* System dependencies: ruby, rails
 
-* Configuration
+git clone git@github.com:alexiamcdonald/cnotes.git
 
-* Database creation
+cd cnotes
 
-* Database initialization
+bundle install
 
-* How to run the test suite
+rails s
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
