@@ -1,11 +1,14 @@
 <div class="row">
   <div class="col-sm-4">
-    <button type="button" class="btn btn-success btn-lg">New Patient</button>
+    <!--button type="button" class="btn btn-success btn-lg">New Patient</button-->
+    <%= link_to 'New Patient', new_patient_path, :class =>'btn btn-success btn-lg' %>
   </div>
   <div class="col-sm-4">
-    <button type="button" class="btn btn-primary btn-lg">Existing Patient</button>
+    <!--button type="button" class="btn btn-primary btn-lg">Existing Patient</button -->
+    <%= link_to 'Existing Patients', patients_path, :class =>'btn btn-primary btn-lg' %>
   </div>
   <div class="col-sm-4">
-    <button type="button" class="btn btn-danger btn-lg">Notes</button>
+    <%= link_to 'Quick Notes', new_note_path, :class => 'btn btn-danger btn-lg'%>
+    <!--button type="button" class="btn btn-danger btn-lg">Notes</button>
   </div>
 </div>
