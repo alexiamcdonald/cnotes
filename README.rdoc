@@ -17,5 +17,10 @@ Community and not-for-profit sector psychology and counselling practices in  Aus
   $ cd cnotes
 
   $ bundle install
+  
+First run needs to build database
+  $ bundle exec rake test:prepare
+  $ bundle exec rake db:test:prepare
+  $ bundle exec rake db:migrate
 
   $ rails s
