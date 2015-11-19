@@ -1,4 +1,5 @@
 class NotesController < ApplicationController
+  before_action :require_user, only: [:index, :show]
   before_action :set_note, only: [:show, :edit, :update, :destroy]
 
   # GET /notes
